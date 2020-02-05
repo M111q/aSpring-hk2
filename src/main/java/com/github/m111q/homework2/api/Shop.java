@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface Shop {
     BigDecimal calculatePrice();
+
     List<Product> getProductsList();
 }

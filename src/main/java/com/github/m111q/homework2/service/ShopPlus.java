@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 @Component
 @Profile("plus")
-public class ShopPlus extends ShopStart implements Shop {
+public class ShopPlus extends ShopImpl implements Shop {
 
     private final String NAME = "Shop Plus";
 

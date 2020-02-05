@@ -32,7 +32,7 @@ public class ProductService {
     }
 
     public void showProducts() {
-        productList.forEach(e -> System.out.println(e));
+        productList.forEach(System.out::println);
     }
 
     public void addProduct(Product product) {
